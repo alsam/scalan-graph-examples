@@ -26,6 +26,9 @@ libraryDependencies += "org.scala-lang.virtualized" % "scala-compiler" % "2.10.2
 
 libraryDependencies += "org.scalatest" %% "scalatest" % "2.1.2"
 
+libraryDependencies += "junit" % "junit" % "4.10" % "test"
+
+
 scalaSource in Compile <<= baseDirectory(_ / "src")
 
 scalaSource in Test <<= baseDirectory(_ / "tests")
